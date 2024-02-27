@@ -26,14 +26,15 @@ You'll find an `.env` file at the project root that includes a `VITE_JSON_SERVER
 
 ### Writing A Custom List Component
 
-- 画面サイズに応じて使用するコンポーネントをreact-admin切り替えることができる
+- 画面サイズに応じて使用するコンポーネントをreact-admin（以下admin）切り替えることができる
 
 ### Selecting Columns
 
-APIから取得したデータを当て込むコンポーネントをreact-adminでは
+APIから取得したデータを当て込むコンポーネントをadminでは
 `field`と呼んでいる。
 あらゆるデータ型に対応したfieldが用意されている。
 [field一覧](https://marmelab.com/react-admin/Fields.html)
 
+### Writing A Custom Field
 
-
+adminでは自前のfieldを用意することが可能。機能が物足りなかったら自前で作って足す感じ。
