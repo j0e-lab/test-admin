@@ -55,4 +55,9 @@ adminでは自前のfieldを用意することが可能。機能が物足りな�
 - 列に一覧表示しているデータを外部キーで連携している別テーブルへのリンクにすることができる
 
 ### Adding Editing Capabilities
+
 - この章では一覧の各行を編集できるようにしていく
+
+### Customizing the Menu Icons
+
+[使用可能なアイコン一覧](https://mui.com/material-ui/material-icons/)
