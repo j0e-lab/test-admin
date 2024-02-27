@@ -1,9 +1,9 @@
 import {
   Admin,
-  Resource,
-  ListGuesser,
+  Resource
 } from "react-admin";
 import { dataProvider } from "./dataProvider";
+import { UserList } from "./users";
 
 export const App = () => (
   // dataProviderとはreact-admin（以下admin）がapiと通信する際のアダプターとして機能するもの
@@ -11,7 +11,7 @@ export const App = () => (
   <Admin dataProvider={dataProvider}>
     <Resource
       name="users"
-      list={ListGuesser} // usersレコードを取得するようadminに通知
+      list={UserList} // usersレコードを取得するようadminに通知
     />
   </Admin>
 );
