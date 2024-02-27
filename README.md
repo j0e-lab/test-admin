@@ -61,3 +61,9 @@ adminでは自前のfieldを用意することが可能。機能が物足りな�
 ### Customizing the Menu Icons
 
 [使用可能なアイコン一覧](https://mui.com/material-ui/material-icons/)
+
+### Using a Custom Home Page
+
+- 管理者画面のトップページを作成する方法について
+
+
