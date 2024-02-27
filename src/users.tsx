@@ -3,7 +3,7 @@ import MyUrlField from "./MyUrlField";
 
 export const UserList = () => (
   <List>
-    <Datagrid rowClick="edit">
+    <Datagrid rowClick="show">
       <TextField source="id" />
       <TextField source="name" />
       <EmailField source="email" />

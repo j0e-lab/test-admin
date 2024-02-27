@@ -1,4 +1,4 @@
-import { Admin, Resource } from "react-admin";
+import { Admin, Resource, ShowGuesser } from "react-admin";
 import { dataProvider } from "./dataProvider";
 import { PostList } from "./posts";
 import { UserList } from "./users";
@@ -9,6 +9,6 @@ export const App = () => (
   // list propsはname propsで指定したテーブルのレコードを取得するようadminに通知している
   <Admin dataProvider={dataProvider}>
     <Resource name="posts" list={PostList} />
-    <Resource name="users" list={UserList} recordRepresentation="name" />
++   <Resource name="users" list={UserList} show={ShowGuesser} recordRepresentation="name" />
   </Admin>
 );
