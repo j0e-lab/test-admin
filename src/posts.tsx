@@ -1,4 +1,4 @@
-import { List, Datagrid, TextField, ReferenceField, EditButton, Edit, SimpleForm, ReferenceInput, TextInput } from "react-admin";
+import { List, Datagrid, TextField, ReferenceField, EditButton, Edit, SimpleForm, ReferenceInput, TextInput, Create } from "react-admin";
 
 export const PostList = () => (
   <List>
@@ -19,8 +19,17 @@ export const PostEdit = () => (
       <ReferenceInput source="userId" reference="users" link="show" />
       <TextInput source="title" />
       {/* multiline > テキストが複数行になって折り返されると入力の高さを自動調整してくれる */}
-      {/* rows >  */}
       <TextInput source="body" multiline rows={5} />
     </SimpleForm>
   </Edit>
+);
+
+export const PostCreate = () => (
+  <Create>
+    <SimpleForm>
+      <ReferenceInput source="userId" reference="users" />
+      <TextInput source="title" />
+      <TextInput source="body" multiline rows={5} />
+    </SimpleForm>
+  </Create>
 );
