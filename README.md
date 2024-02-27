@@ -38,3 +38,9 @@ APIから取得したデータを当て込むコンポーネントをadminでは
 ### Writing A Custom Field
 
 adminでは自前のfieldを用意することが可能。機能が物足りなかったら自前で作って足す感じ。
+
+### Customizing Styles
+
+- adminはGoogleの[Material Designガイドライン](https://m3.material.io/)に基づいてモデル化された[Material UI](https://mui.com/material-ui/getting-started/)に依存している
+- 使用可能な[コンポーネント一覧](https://mui.com/material-ui/all-components/)
+- sxプロップでコンポーネントのstyleを指定する
