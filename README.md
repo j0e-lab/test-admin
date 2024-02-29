@@ -27,6 +27,10 @@ You'll find an `.env` file at the project root that includes a `VITE_JSON_SERVER
 
 - UIでソートやページネーションによる移動をすると都度リクエストが飛ぶようになっている。
 
+### Using an API As Data Source
+
+- dataProviderとはreact-admin（以下admin）がapiと通信する際のアダプターとして機能するもの
+
 ### Writing A Custom List Component
 
 - 画面サイズに応じて使用するコンポーネントをreact-admin（以下admin）切り替えることができる
