@@ -1,5 +1,8 @@
 # test-admin
 
+## 概要
+[react-admin](https://marmelab.com/react-admin/Tutorial.html)のチュートリアルをまんまなぞったコードを格納したリポジトリ
+
 ## Development
 
 Start the application in development mode by running:
